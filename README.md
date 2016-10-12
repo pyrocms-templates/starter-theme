@@ -21,7 +21,7 @@
 After installing [Pyro Builder](github.com/websemantics/builder-extension) run,
 
 ```
-php artisan builder:make starter-theme
+php artisan make:addon vendor.theme.slug
 ```
 
 Customize the theme to your requirements by selecting a different `vendor`, `slug`, `description` and `brand primary color`.
