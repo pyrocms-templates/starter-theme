@@ -1,0 +1,18 @@
+{% verbatim %}
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{ image("theme::img/profile.png").class("img-responsive")|raw }}
+
+                <div class="intro-text">
+                    <span class="name">{{ config_get("streams::distribution.name") }}</span>
+                    <hr class="star-light">
+                    <span class="skills">{{ config_get("streams::distribution.description") }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+{% endverbatim %}

@@ -1,0 +1,30 @@
+{
+    "name": "{{vendor|lower}}/{{slug|lower}}-{{type|lower}}",
+    "type": "streams-addon",
+    "description": "{{description}}",
+    "keywords": [
+      "streams theme",
+      "theme",
+      "pyrocms",
+      "laravel",
+      "{{type|lower}}"
+    ],
+    "homepage": "http://{{vendor}}.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "{{vendor}}",
+            "email": "suport@{{vendor}}.com",
+            "homepage": "http://{{vendor}}.com/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "support@{{vendor}}.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "{{vendor|studly_case}}\\{{slug|studly_case}}{{type|studly_case}}\\": "src/"
+        }
+    }
+}

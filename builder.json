@@ -1,0 +1,29 @@
+{
+  "schema": {
+    "vendor": {
+    "type": "string",
+    "required": true,
+    "label": "Vendor name",
+    "default": "pyrocms"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "label": "Addon slug",
+      "default": "starter"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "label": "Description",
+      "default": "A customizable release of the official PyroCMS starter theme, a basic HTML5 Bootstrap theme based on the Freelance Theme from http://startbootstrap.com/template-overviews/freelancer/"      
+    },
+    "primary": {
+      "type": "string",
+      "required": false,
+      "label": "Brand primary color",
+      "options": ["purple","green","blue","orange","red"],
+      "default": "purple"
+    }
+  }
+}

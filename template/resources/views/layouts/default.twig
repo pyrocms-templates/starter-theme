@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "theme::partials/metadata" %}
+</head>
+
+<body>
+
+{% include "theme::partials/navigation" %}
+
+<div id="content">
+    <div class="container">
+        {% include "theme::partials/breadcrumbs" %}
+        {% include "theme::partials/messages" %}
+
+        {% block content %}{% endblock %}
+    </div>
+</div>
+
+{% include "theme::partials/footer" %}
+{% include "theme::partials/scripts" %}
+
+</body>
+
+</html>
