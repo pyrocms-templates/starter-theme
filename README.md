@@ -14,19 +14,27 @@
 
 ```
 
-> A customizable release of the official PyroCMS starter theme
+> A customizable release of the official PyroCMS starter theme, a basic HTML5 Bootstrap theme based on the Freelance Theme from [Freelancer](http://startbootstrap.com/template-overviews/freelancer).
 
-## Install
+## Getting Started
 
-After installing [Pyro Builder](github.com/websemantics/builder-extension) run,
+After installing the [Builder](github.com/websemantics/builder-extension), create the theme as follows,
 
 ```
 php artisan make:addon vendor.theme.slug
 ```
 
-Customize the theme to your requirements by selecting a different `vendor`, `slug`, `description` and `brand primary color`.
+or
 
-![Create a Starter Theme](https://github.com/pyrocms-templates/pyrocms-theme/raw/master/docs/pyrocms-theme.gif "Create an Admin theme")
+```
+php artisan make:addon vendor.theme.slug starter-theme
+```
+
+#### Options
+
+* `--force`, to force a fresh download of the template.
+* `--defaults`, to force template default values.
+
 
 ## Support
 
