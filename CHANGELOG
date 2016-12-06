@@ -1,4 +1,9 @@
+1.0.1
+  date: 05/12/2016
+  changes:
+  - Keep up to date with [Starter Theme](https://github.com/pyrocms/starter-theme)
+
 1.0.0
   date: 12/10/2016
   changes:
-  - list features and bug fixes
+  - List features and bug fixes

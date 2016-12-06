@@ -3,7 +3,9 @@
 <html lang="en">
 
 <head>
+    {% block metadata deferred %}
     {% include "theme::partials/metadata" %}
+    {% endblock %}
 </head>
 
 <body>
@@ -16,6 +18,10 @@
         {% include "theme::partials/messages" %}
 
         {% block content %}{% endblock %}
+
+        {% if (request_path() == '/') %}
+            <hr> {% include "theme::partials/posts" %}
+        {% endif %}
     </div>
 </div>
 
