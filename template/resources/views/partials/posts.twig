@@ -1,3 +1,4 @@
+{% verbatim %}
 <div id="posts">
 
     {% set posts = entries('posts').recent().take(5).get() %}
@@ -7,3 +8,4 @@
     {{ posts.links|raw }}
 
 </div>
+{% endverbatim %}
